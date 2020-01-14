@@ -1,0 +1,488 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Downloading/Downloading.swift",
+      "line": 16,
+      "symbol": "NSError.localizedStringError()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Downloading/Downloading.swift",
+      "line": 25,
+      "symbol": "Downloading",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Downloading/Downloading.swift",
+      "line": 27,
+      "symbol": "Downloading.DownloadingError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Downloading/Downloading.swift",
+      "line": 28,
+      "symbol": "Downloading.DownloadingError.clientSiteError(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Downloading/Downloading.swift",
+      "line": 29,
+      "symbol": "Downloading.DownloadingError.serverSiteError(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Downloading/Downloading.swift",
+      "line": 30,
+      "symbol": "Downloading.DownloadingError.fileError(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Downloading/Downloading.swift",
+      "line": 78,
+      "symbol": "Downloading.downloadFile(_:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Downloading/Downloading.swift",
+      "line": 85,
+      "symbol": "Downloading.downloadFile2(_:delegate:delegateQuee:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.appDelegateService",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/AppDelegate.swift",
+      "line": 25,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/AppDelegate.swift",
+      "line": 31,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/DownloadingService.swift",
+      "line": 12,
+      "symbol": "DownloadingService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/DownloadingService.swift",
+      "line": 14,
+      "symbol": "DownloadingService.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/URLProtocolService.swift",
+      "line": 12,
+      "symbol": "URLProtocolService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/AppDelegateServices/URLProtocolService.swift",
+      "line": 14,
+      "symbol": "URLProtocolService.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/SceneDelegate.swift",
+      "line": 11,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/SceneDelegate.swift",
+      "line": 13,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/SceneDelegate.swift",
+      "line": 16,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/SceneDelegate.swift",
+      "line": 23,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/SceneDelegate.swift",
+      "line": 30,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/SceneDelegate.swift",
+      "line": 35,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/SceneDelegate.swift",
+      "line": 40,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/SceneDelegate.swift",
+      "line": 45,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/ViewController.swift",
+      "line": 11,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/ViewController.swift",
+      "line": 13,
+      "symbol": "ViewController.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/ViewController.swift",
+      "line": 15,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/ViewController.swift",
+      "line": 20,
+      "symbol": "ViewController.download(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/ViewController.swift",
+      "line": 26,
+      "symbol": "ViewControllerBussinessLogic",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/ViewController.swift",
+      "line": 27,
+      "symbol": "ViewControllerBussinessLogic.getFileURL()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/Networking/ViewController.swift",
+      "line": 94,
+      "symbol": "ViewControllerBussinessService.getFileURL()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/HTTPClient.swift",
+      "line": 11,
+      "symbol": "HttpClient",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/HTTPClient.swift",
+      "line": 12,
+      "symbol": "HttpClient.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/HTTPClient.swift",
+      "line": 13,
+      "symbol": "HttpClient.Error.invalidParameter(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 20,
+      "symbol": "Mock.HTTPMethod.options",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 21,
+      "symbol": "Mock.HTTPMethod.get",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 22,
+      "symbol": "Mock.HTTPMethod.head",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 23,
+      "symbol": "Mock.HTTPMethod.post",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 24,
+      "symbol": "Mock.HTTPMethod.put",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 25,
+      "symbol": "Mock.HTTPMethod.patch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 26,
+      "symbol": "Mock.HTTPMethod.delete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 27,
+      "symbol": "Mock.HTTPMethod.trace",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 28,
+      "symbol": "Mock.HTTPMethod.connect",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 33,
+      "symbol": "Mock.DataType.json",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 34,
+      "symbol": "Mock.DataType.html",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 35,
+      "symbol": "Mock.DataType.imagePNG",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 36,
+      "symbol": "Mock.DataType.pdf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 37,
+      "symbol": "Mock.DataType.mp4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 38,
+      "symbol": "Mock.DataType.zip",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mock.swift",
+      "line": 40,
+      "symbol": "Mock.DataType.headerValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mocker.swift",
+      "line": 6,
+      "symbol": "Mocker.HTTPVersion",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mocker.swift",
+      "line": 7,
+      "symbol": "Mocker.HTTPVersion.http1_0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mocker.swift",
+      "line": 8,
+      "symbol": "Mocker.HTTPVersion.http1_1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/Mocker.swift",
+      "line": 9,
+      "symbol": "Mocker.HTTPVersion.http2_0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/MockingURLProtocol.swift",
+      "line": 14,
+      "symbol": "MockingURLProtocol.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/MockingURLProtocol.swift",
+      "line": 15,
+      "symbol": "MockingURLProtocol.Error.missingMockedData(url:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/NetworkCapture.swift",
+      "line": 11,
+      "symbol": "NetworkCapture",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/NetworkCapture.swift",
+      "line": 11,
+      "symbol": "NetworkCapture",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/NetworkCapture.swift",
+      "line": 14,
+      "symbol": "NetworkCapture.setup()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/NetworkCapture.swift",
+      "line": 21,
+      "symbol": "NetworkCapture.canInit(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/NetworkCapture.swift",
+      "line": 52,
+      "symbol": "NetworkCapture.canonicalRequest(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/NetworkCapture.swift",
+      "line": 57,
+      "symbol": "NetworkCapture.requestIsCacheEquivalent(_:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/NetworkCapture.swift",
+      "line": 62,
+      "symbol": "NetworkCapture.startLoading()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/NetworkCapture.swift",
+      "line": 91,
+      "symbol": "NetworkCapture.stopLoading()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/StubData.swift",
+      "line": 11,
+      "symbol": "StubData",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/StubData.swift",
+      "line": 19,
+      "symbol": "StubData.empty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/StubData.swift",
+      "line": 20,
+      "symbol": "StubData.maintenance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/nguyenductho/Documents/GitHub/Networking/Networking/URLProtocol/StubData.swift",
+      "line": 26,
+      "symbol": "StubData.notice",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/nguyenductho/Documents/GitHub/Networking/Networking"
+}

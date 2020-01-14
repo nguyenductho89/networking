@@ -11,10 +11,12 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    let appDelegateService:[UIApplicationDelegate] = [DownloadingService()]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        appDelegateService.forEach { _ = $0.application?(application, didFinishLaunchingWithOptions: launchOptions)
+        }
         return true
     }
 
@@ -34,4 +36,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

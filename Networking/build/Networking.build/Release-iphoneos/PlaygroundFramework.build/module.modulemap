@@ -1,0 +1,6 @@
+framework module PlaygroundFramework {
+  umbrella header "PlaygroundFramework.h"
+
+  export *
+  module * { export * }
+}
