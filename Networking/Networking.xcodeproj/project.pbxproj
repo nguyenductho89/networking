@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0730CEC23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CEB23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift */; };
+		D0730CED23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CEB23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift */; };
+		D0730CEE23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CEB23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift */; };
+		D0730CF023CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CEF23CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift */; };
+		D0730CF123CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CEF23CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift */; };
+		D0730CF223CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CEF23CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift */; };
+		D0730CF423CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CF323CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift */; };
+		D0730CF523CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CF323CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift */; };
+		D0730CF623CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CF323CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift */; };
+		D0730CF823CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CF723CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift */; };
+		D0730CF923CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CF723CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift */; };
+		D0730CFA23CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730CF723CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift */; };
 		D09B17FF23CBC6740006763B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B17FE23CBC6740006763B /* AppDelegate.swift */; };
 		D09B180123CBC6740006763B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B180023CBC6740006763B /* SceneDelegate.swift */; };
-		D09B180323CBC6740006763B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B180223CBC6740006763B /* ViewController.swift */; };
+		D09B180323CBC6740006763B /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B180223CBC6740006763B /* DownloadViewController.swift */; };
 		D09B180623CBC6740006763B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09B180423CBC6740006763B /* Main.storyboard */; };
 		D09B180823CBC6770006763B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09B180723CBC6770006763B /* Assets.xcassets */; };
 		D09B180B23CBC6770006763B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09B180923CBC6770006763B /* LaunchScreen.storyboard */; };
@@ -43,7 +55,7 @@
 		D0AB6C5923CC5E88003CA5FB /* DownloadingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AB6C5723CC5E88003CA5FB /* DownloadingService.swift */; };
 		D0AB6C5E23CD5779003CA5FB /*  Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0AB6C6123CD5779003CA5FB /*  Localizable.strings */; };
 		D0AB6C5F23CD5779003CA5FB /*  Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0AB6C6123CD5779003CA5FB /*  Localizable.strings */; };
-		D0AB6C6523CDE060003CA5FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B180223CBC6740006763B /* ViewController.swift */; };
+		D0AB6C6523CDE060003CA5FB /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B180223CBC6740006763B /* DownloadViewController.swift */; };
 		D0AB6C6723CDE377003CA5FB /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = D09B180423CBC6740006763B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -79,10 +91,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D0730CEB23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewControllerUserAction.swift; sourceTree = "<group>"; };
+		D0730CEF23CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewControllerInteractor.swift; sourceTree = "<group>"; };
+		D0730CF323CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewControllerInteractorNotify.swift; sourceTree = "<group>"; };
+		D0730CF723CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewControllerUsecase.swift; sourceTree = "<group>"; };
 		D09B17FB23CBC6740006763B /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09B17FE23CBC6740006763B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D09B180023CBC6740006763B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D09B180223CBC6740006763B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D09B180223CBC6740006763B /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		D09B180523CBC6740006763B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D09B180723CBC6770006763B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D09B180A23CBC6770006763B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -139,6 +155,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0730CEA23CEA7E9006D3E70 /* DownloadViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D09B180223CBC6740006763B /* DownloadViewController.swift */,
+				D0730CEB23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift */,
+				D0730CEF23CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift */,
+				D0730CF323CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift */,
+				D0730CF723CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift */,
+			);
+			path = DownloadViewController;
+			sourceTree = "<group>";
+		};
 		D09B17F223CBC6740006763B = {
 			isa = PBXGroup;
 			children = (
@@ -166,9 +194,9 @@
 		D09B17FD23CBC6740006763B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				D0730CEA23CEA7E9006D3E70 /* DownloadViewController */,
 				D0A3D16323CBCDB700B68922 /* AppDelegateServices */,
 				D09B180023CBC6740006763B /* SceneDelegate.swift */,
-				D09B180223CBC6740006763B /* ViewController.swift */,
 				D09B180423CBC6740006763B /* Main.storyboard */,
 				D09B180723CBC6770006763B /* Assets.xcassets */,
 				D09B180923CBC6770006763B /* LaunchScreen.storyboard */,
@@ -392,12 +420,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D09B180323CBC6740006763B /* ViewController.swift in Sources */,
+				D09B180323CBC6740006763B /* DownloadViewController.swift in Sources */,
 				D0A3D16023CBCD8A00B68922 /* NetworkCapture.swift in Sources */,
 				D0AB6C4123CBD3FF003CA5FB /* Mocker.swift in Sources */,
+				D0730CF023CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift in Sources */,
 				D0A3D16223CBCD8A00B68922 /* HTTPClient.swift in Sources */,
 				D09B17FF23CBC6740006763B /* AppDelegate.swift in Sources */,
 				D0A3D15E23CBCD8A00B68922 /* Array+AsyncExtension.swift in Sources */,
+				D0730CEC23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift in Sources */,
+				D0730CF823CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift in Sources */,
+				D0730CF423CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift in Sources */,
 				D09B180123CBC6740006763B /* SceneDelegate.swift in Sources */,
 				D0A3D16123CBCD8A00B68922 /* NetworkCapture+Extensions.swift in Sources */,
 				D0A3D16523CBCDE300B68922 /* URLProtocolService.swift in Sources */,
@@ -416,9 +448,13 @@
 				D0AB6C5123CC146E003CA5FB /* Fake + Stub + Spy.swift in Sources */,
 				D0AB6C4F23CC139F003CA5FB /* Mock.swift in Sources */,
 				D0AB6C4E23CC139C003CA5FB /* Mocker.swift in Sources */,
+				D0730CF123CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift in Sources */,
 				D09B181623CBC6770006763B /* NetworkingTests.swift in Sources */,
 				D0AB6C4C23CC1397003CA5FB /* StubData.swift in Sources */,
 				D0AB6C4B23CC138F003CA5FB /* Array+AsyncExtension.swift in Sources */,
+				D0730CED23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift in Sources */,
+				D0730CF923CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift in Sources */,
+				D0730CF523CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift in Sources */,
 				D0AB6C4A23CC138B003CA5FB /* NetworkCapture+Extensions.swift in Sources */,
 				D0A3D16623CBCDE300B68922 /* URLProtocolService.swift in Sources */,
 				D0AB6C4823CC1385003CA5FB /* HTTPClient.swift in Sources */,
@@ -434,8 +470,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0730CEE23CEA84D006D3E70 /* DownloadViewControllerUserAction.swift in Sources */,
 				D0AB6C6723CDE377003CA5FB /* Main.storyboard in Sources */,
-				D0AB6C6523CDE060003CA5FB /* ViewController.swift in Sources */,
+				D0730CFA23CEAD3D006D3E70 /* DownloadViewControllerUsecase.swift in Sources */,
+				D0730CF623CEAC8C006D3E70 /* DownloadViewControllerInteractorNotify.swift in Sources */,
+				D0AB6C6523CDE060003CA5FB /* DownloadViewController.swift in Sources */,
+				D0730CF223CEAAEE006D3E70 /* DownloadViewControllerInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

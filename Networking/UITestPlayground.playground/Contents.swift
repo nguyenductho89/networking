@@ -24,5 +24,6 @@ let frame = parent.view.frame
 PlaygroundPage.current.liveView = parent
 parent.view.frame = frame
 
-child.actionStartDownload()
+//child.actionStartDownload()
+child.updateUIWithDownloadProgress("30%")
 
