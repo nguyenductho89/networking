@@ -25,13 +25,20 @@ public class DownloadViewController: UIViewController {
         activityIndicator.center = self.view.center
         self.view.addSubview(activityIndicator)
     }
-
+    override public func viewWillDisappear(_ animated: Bool) {
+        actionViewWillDisappear()
+    }
     @IBAction func download(_ sender: UIButton) {
         actionStartDownload()
     }
 }
 
 extension DownloadViewController: DownloadViewControllerUserAction {
+    
+    public func actionViewWillDisappear() {
+        interator.usecaseShouldCancelUncompleteDownload()
+    }
+    
     public func actionAgreeResumeUncompletedDownload() {
         interator.usecaseResumeUncompletedDownload()
     }
@@ -60,7 +67,7 @@ extension DownloadViewController: DownloadViewControllerInteractorNotify {
         downloadBtn.isUserInteractionEnabled = true
         let alert = UIAlertController(title: "Thông báo", message: stringError, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-        self.present(alert, animated: true)
+        self.view.window?.rootViewController?.present(alert, animated: true)
     }
     public func updateUIWhenStartDownload() {
         activityIndicator.startAnimating()

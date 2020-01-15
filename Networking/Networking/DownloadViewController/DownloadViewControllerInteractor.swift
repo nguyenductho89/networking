@@ -17,14 +17,22 @@ class DownloadViewControllerInteractor: NSObject {
     private let _monitor = NWPathMonitor()
     override init() {
         super.init()
-        _monitor.pathUpdateHandler = handlerNetworkConnectivityStatus(_:)
+        _monitor.pathUpdateHandler =
+            {[weak self] path in
+                if path.status == .satisfied && self?.isUncompledDownload() ?? false {
+                    OperationQueue.main.addOperation {
+                        self?.uiUpdate?.updateUIWithResumableDownload()
+                    }
+                }
+        }
         let queue = DispatchQueue(label: "thond.Networking.Monitor")
         _monitor.start(queue: queue)
     }
     private func handlerNetworkConnectivityStatus(_ path: NWPath) -> Void {
-        if path.status == .satisfied && isUncompledDownload() {
-            OperationQueue.main.addOperation {[weak self] in
-                self?.uiUpdate?.updateUIWithResumableDownload()
+        weak var weakSelf = self
+        if path.status == .satisfied && weakSelf?.isUncompledDownload() ?? false {
+            OperationQueue.main.addOperation {
+                weakSelf?.uiUpdate?.updateUIWithResumableDownload()
             }
         } else {
             
@@ -36,6 +44,12 @@ class DownloadViewControllerInteractor: NSObject {
 }
 
 extension DownloadViewControllerInteractor: DownloadViewControllerUsecase {
+    
+    func usecaseShouldCancelUncompleteDownload() {
+        _urlSession.invalidateAndCancel()
+        _monitor.cancel()
+    }
+    
     func usecaseGetFileURL() -> URL? {
         return URL(string:
         "http://ftp.jaist.ac.jp/pub/eclipse/oomph/epp/2019-12/R/eclipse-inst-mac64.dmg")

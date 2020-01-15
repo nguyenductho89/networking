@@ -18,5 +18,5 @@ protocol DownloadViewControllerUsecase {
     */
     func usecaseDownloadFileWithURL(_ url: URL)
     func usecaseResumeUncompletedDownload()
-    
+    func usecaseShouldCancelUncompleteDownload()
 }
