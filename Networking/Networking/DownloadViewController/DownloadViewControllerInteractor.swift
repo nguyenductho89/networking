@@ -46,8 +46,8 @@ class DownloadViewControllerInteractor: NSObject {
 extension DownloadViewControllerInteractor: DownloadViewControllerUsecase {
     
     func usecaseShouldCancelUncompleteDownload() {
-        _urlSession.invalidateAndCancel()
-        _monitor.cancel()
+         _urlSession.invalidateAndCancel()
+         _monitor.cancel()
     }
     
     func usecaseGetFileURL() -> URL? {

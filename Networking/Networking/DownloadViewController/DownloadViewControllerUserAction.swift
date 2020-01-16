@@ -11,5 +11,5 @@ import Foundation
 public protocol DownloadViewControllerUserAction {
     func actionStartDownload()
     func actionAgreeResumeUncompletedDownload()
-    func actionViewWillDisappear()
+    func actionViewDeinit()
 }

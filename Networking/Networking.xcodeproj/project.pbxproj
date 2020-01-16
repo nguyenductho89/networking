@@ -167,6 +167,13 @@
 			path = DownloadViewController;
 			sourceTree = "<group>";
 		};
+		D0730CFB23CF4405006D3E70 /* DownloadDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DownloadDetailViewController;
+			sourceTree = "<group>";
+		};
 		D09B17F223CBC6740006763B = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +201,7 @@
 		D09B17FD23CBC6740006763B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				D0730CFB23CF4405006D3E70 /* DownloadDetailViewController */,
 				D0730CEA23CEA7E9006D3E70 /* DownloadViewController */,
 				D0A3D16323CBCDB700B68922 /* AppDelegateServices */,
 				D09B180023CBC6740006763B /* SceneDelegate.swift */,
