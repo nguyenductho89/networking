@@ -39,26 +39,38 @@
             </objects>
             <point key="canvasLocation" x="-229" y="-609"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Download View Controller-->
         <scene sceneID="ooW-bV-Yp5">
             <objects>
-                <viewController id="0Y0-DO-KB8" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailDownloadViewController" id="0Y0-DO-KB8" customClass="DetailDownloadViewController" customModule="Networking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cdR-oC-Xmg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detail Download" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hg-Em-X10">
+                                <rect key="frame" x="228" y="395" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="E32-ep-WJm"/>
                     </view>
                     <navigationItem key="navigationItem" id="1BY-Ic-tTs"/>
+                    <connections>
+                        <outlet property="detailLabel" destination="3hg-Em-X10" id="Zr7-WO-rVu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9P-br-swC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1970" y="102"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tabbar View Controller-->
         <scene sceneID="o7T-LW-UGE">
             <objects>
-                <tabBarController id="lKG-VO-frW" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabbarViewController" id="lKG-VO-frW" customClass="MainTabbarViewController" customModule="Networking" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GNx-QO-9nX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -117,11 +129,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="c45-7N-nLz">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="o2k-sn-jqw">
-                            <connections>
-                                <segue destination="0Y0-DO-KB8" kind="show" id="ORN-xc-ARu"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="o2k-sn-jqw"/>
                     </navigationItem>
                     <connections>
                         <outlet property="downloadBtn" destination="YsK-dm-qSO" id="yAL-41-ECT"/>
@@ -132,32 +140,37 @@
             </objects>
             <point key="canvasLocation" x="1203" y="102"/>
         </scene>
-        <!--View Controller-->
+        <!--Intro Download View Controller-->
         <scene sceneID="akT-MA-tlp">
             <objects>
-                <viewController id="1uJ-lR-DhM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IntroDownloadViewController" id="1uJ-lR-DhM" customClass="IntroDownloadViewController" customModule="Networking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R7A-Xq-nC1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Intro Download" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1c-Fr-Uur">
+                                <rect key="frame" x="149" y="438" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="S3h-EO-g2X"/>
                     </view>
                     <navigationItem key="navigationItem" id="yml-gm-Cdj">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="Ac6-Sw-TGg">
-                            <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="lIf-5y-Wg9"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Ac6-Sw-TGg"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nE9-9J-YZP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="459" y="102"/>
+            <point key="canvasLocation" x="457.97101449275368" y="101.78571428571428"/>
         </scene>
         <!--Resumable-->
         <scene sceneID="ybg-rX-uik">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mxR-Yr-3L4" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="DownloadNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="mxR-Yr-3L4" customClass="DownloadNavigationController" customModule="Networking" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Resumable" id="pBv-Rx-ktP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3qP-5M-dGW">
@@ -165,9 +178,6 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="1uJ-lR-DhM" kind="relationship" relationship="rootViewController" id="PRT-Yy-WKO"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mpI-vF-lkV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
